@@ -1,0 +1,36 @@
+header {
+    height: 35px;
+}
+header>div {
+    text-align: right;
+}
+
+div>section {
+    padding: 10px;
+    border: 2px solid black;
+}
+p>button {
+    background-color: darkslateblue;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid red;
+}
+section>button {
+    color: darkblue;
+    padding: 5px 10px;
+    border: 1px solid mediumblue;
+}
+footer>div {
+    padding: 7px 0px 0px 0px;
+    float: left;
+}
+div>button {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid greenyellow;
+}
+button:hover {
+    cursor: pointer;
+}
