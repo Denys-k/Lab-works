@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Kolomyychuk | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles&photos/portfolio.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+<body>
+<nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+    </label>
+    <label class="logo"><span class="surname">K</span>&oslash;l&oslash;myychuk</label>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a class="active" href="portfolio.html">Portfolio</a></li>
+        <li><a href="contactme.html">Contact Me</a></li>
+    </ul>
+</nav>
+<div class="wrapper1">
+    <div class="postcard">
+        <img src="styles&photos/project1.PNG" alt="Avatar" style="width:100%">
+        <div class="card" data-project="project1">
+            <p>
+                The most significant challenge I have faced was making a charity project in the U.S. for an animal shelter. Me and another exchange student decided to team up. We created a charity organisation called "Paw in Hand" and
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">started working seperately on our events. At first, I wanted to cooperate with some local restaurants to ask their customers for donations but all of them rejected this offer. After that, I have decided to team up with a school cafeteria and start selling coffee where 1$ from each sold cup would go for a donation. This helped me to make 120$ in less than a week. In total we gathered 210$ and eventually all the needed supplies were bought and donated.</span>
+            </p>
+            <button onclick="readMore('project1')" class="myBtn">Read more</button>
+        </div>
+    </div>
+</div>
+
+<div class="wrapper1">
+    <div class="postcard">
+        <img src="styles&photos/fbla2.PNG" alt="Avatar" style="width:100%">
+        <div class="card" data-project="project2">
+            <p>
+                While I was on my exchange year, I participated in FBLA (Future Business Leaders of America) CLub. The purpose of this extracurricular activity is to provide opportunities for students to develop vocational and career competencies. At the beginning of February
+                <span class="dots">...</span>
+                <span class="more" style="display: none;"> I took part in the district FBLA competition. There were many students from other schools and I competed in one of the subjects called Help Desk. In short, all I needed to do was to demonstrate an understanding of and ability to provide technical assistance to end users. Before my presentation, I was a little bit worried but in the end, I took a third place. Because of that, I qualified on a state competition and I was so happy, that I could not believe it was true.</span>
+            </p>
+            <button onclick="readMore('project2')" class="myBtn">Read more</button>
+        </div>
+    </div>
+</div>
+
+<script src="scripts/portfolio.js"></script>
+</body>
+</html>
